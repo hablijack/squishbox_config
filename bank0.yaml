@@ -1,4 +1,4 @@
-soundfonts: {keytar: /home/pi/soundfonts/KeytarGod.sf2}
+soundfonts: {keytar: /home/pi/soundfonts/Keytar_God.sf2}
 gain: 0.4
 reverb_level: 0.9
 reverb_roomsize: 0.2
