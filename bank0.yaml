@@ -13,11 +13,96 @@ router_rules:
 - {type: cc, chan: [0, 15, 1, 0], par1: [64, 64, 1, 0]} # sustain pedal
 - {type: cc, chan: [0, 15, 1, 0], par1: [0, 127, 1, 0]}
 patches:
+# ############################################
+# PIANOS
+# ############################################
 - name: Grand Piano
   0: {bank: 0, program: 0, soundfont: keytar}
-- name: Bright Grand Piano
-  0: {bank: 0, program: 1, soundfont: keytar}
+- name: Bright Grand
+  1: {bank: 0, program: 1, soundfont: keytar}
 - name: E-Piano
-  0: {bank: 0, program: 2, soundfont: keytar}
+  2: {bank: 0, program: 2, soundfont: keytar}
 - name: Honky Tonk
-  0: {bank: 0, program: 3, soundfont: keytar}
+  3: {bank: 0, program: 3, soundfont: keytar}
+- name: Rhodes EP
+  4: {bank: 0, program: 4, soundfont: keytar}
+- name: Legend EP
+  5: {bank: 0, program: 5, soundfont: keytar}
+- name: Wurlitzer
+  6: {bank: 0, program: 6, soundfont: keytar}
+# ############################################
+# SCHLAGINSTRUMENTE
+# ############################################
+- name: Celesta
+  7: {bank: 1, program: 1, soundfont: keytar}
+- name: Glockenspiel
+  8: {bank: 1, program: 2, soundfont: keytar}
+- name: Music Box
+  9: {bank: 1, program: 3, soundfont: keytar}
+- name: Vibraphone
+  10: {bank: 1, program: 4, soundfont: keytar}
+- name: Marimba
+  11: {bank: 1, program: 5, soundfont: keytar}
+- name: Xylophone
+  12: {bank: 1, program: 6, soundfont: keytar}
+- name: Church Bell
+  13: {bank: 1, program: 7, soundfont: keytar}
+- name: Tinker Bell
+  14: {bank: 1, program: 8, soundfont: keytar}
+- name: Steel Drums
+  15: {bank: 1, program: 9, soundfont: keytar}
+- name: Crystal
+  16: {bank: 1, program: 10, soundfont: keytar}
+- name: Bowed Glass
+  17: {bank: 1, program: 11, soundfont: keytar}
+- name: Kalimba
+  18: {bank: 1, program: 12, soundfont: keytar}
+# ############################################
+# ORGANS
+# ############################################
+- name: Drawbar Organ
+  19: {bank: 2, program: 1, soundfont: keytar}
+- name: Percussive Organ
+  20: {bank: 2, program: 2, soundfont: keytar}
+- name: Rock Organ
+  21: {bank: 2, program: 3, soundfont: keytar}
+- name: Church Organ
+  22: {bank: 2, program: 4, soundfont: keytar}
+- name: Church Organ 2
+  23: {bank: 2, program: 6, soundfont: keytar}
+- name: Reed Organ
+  24: {bank: 2, program: 5, soundfont: keytar}
+# ############################################
+# ACCORDIONS
+# ############################################
+- name: Accordion
+  25: {bank: 3, program: 1, soundfont: keytar}
+- name: Harmonica
+  26: {bank: 3, program: 2, soundfont: keytar}
+- name: Bandoneon
+  27: {bank: 3, program: 3, soundfont: keytar}
+- name: Italian Accordion
+  28: {bank: 3, program: 2, soundfont: keytar}
+# ############################################
+# ZUPFINSTRUMENTE
+# ############################################
+- name: Dulcimer
+  29: {bank: 4, program: 1, soundfont: keytar}
+- name: Overdrive Guitar
+  30: {bank: 4, program: 2, soundfont: keytar}
+- name: Distortion Guitar
+  31: {bank: 4, program: 3, soundfont: keytar}
+- name: Guitar Harmonics
+  32: {bank: 4, program: 4, soundfont: keytar}
+- name: 12 String Guitar
+  33: {bank: 4, program: 5, soundfont: keytar}
+- name: Hawaian Guitar
+  34: {bank: 4, program: 6, soundfont: keytar}
+- name: Mandolin
+  35: {bank: 4, program: 7, soundfont: keytar}
+- name: Ukulele
+  36: {bank: 4, program: 8, soundfont: keytar}
+- name: Harp
+  37: {bank: 4, program: 9, soundfont: keytar}
+- name: Sitar
+  37: {bank: 4, program: 10, soundfont: keytar}
