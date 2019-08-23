@@ -105,4 +105,164 @@ patches:
 - name: Harp
   37: {bank: 4, program: 9, soundfont: keytar}
 - name: Sitar
-  37: {bank: 4, program: 10, soundfont: keytar}
+  38: {bank: 4, program: 10, soundfont: keytar}
+# ############################################
+# STREICHINSTRUMENTE
+# ############################################
+- name: Violin
+  39: {bank: 5, program: 1, soundfont: keytar}
+- name: Fiddle
+  40: {bank: 5, program: 10, soundfont: keytar}
+- name: Viola
+  41: {bank: 5, program: 2, soundfont: keytar}
+- name: Cello
+  42: {bank: 5, program: 3, soundfont: keytar}
+- name: Tremolo
+  43: {bank: 5, program: 4, soundfont: keytar}
+- name: Contrabass
+  44: {bank: 5, program: 5, soundfont: keytar}
+- name: Pizzicato Section
+  45: {bank: 5, program: 6, soundfont: keytar}
+- name: Strings
+  46: {bank: 5, program: 7, soundfont: keytar}
+- name: Slow Strings
+  47: {bank: 5, program: 8, soundfont: keytar}
+- name: Orchestra Hit
+  48: {bank: 5, program: 9, soundfont: keytar}
+- name: Slow Violin
+  49: {bank: 5, program: 11, soundfont: keytar}
+- name: Shamisen
+  50: {bank: 5, program: 12, soundfont: keytar}
+# ############################################
+# PADS
+# ############################################
+- name: Ahh Choir
+  51: {bank: 6, program: 1, soundfont: keytar}
+- name: Ohh Choir
+  52: {bank: 6, program: 2, soundfont: keytar}
+- name: Synth Choir
+  53: {bank: 6, program: 3, soundfont: keytar}
+- name: Synth Strings 1
+  54: {bank: 6, program: 4, soundfont: keytar}
+- name: Synth Strings 2
+  55: {bank: 6, program: 5, soundfont: keytar}
+- name: Metal Pad
+  56: {bank: 6, program: 6, soundfont: keytar}
+- name: Warm Pad
+  57: {bank: 6, program: 7, soundfont: keytar}
+- name: Halo Pad
+  58: {bank: 6, program: 8, soundfont: keytar}
+- name: Soundtrack
+  59: {bank: 6, program: 9, soundfont: keytar}
+- name: Ice Rain
+  60: {bank: 6, program: 10, soundfont: keytar}
+- name: Echo Drops
+  61: {bank: 6, program: 11, soundfont: keytar}
+- name: Brightness
+  62: {bank: 6, program: 12, soundfont: keytar}
+- name: Atmosphere
+  63: {bank: 6, program: 13, soundfont: keytar}
+- name: Sweep Pad
+  64: {bank: 6, program: 14, soundfont: keytar}
+- name: Fantasia
+  65: {bank: 6, program: 15, soundfont: keytar}
+- name: Space Voice
+  66: {bank: 6, program: 16, soundfont: keytar}
+- name: Star Theme
+  67: {bank: 6, program: 17, soundfont: keytar}
+- name: Orchestral Pad
+  68: {bank: 6, program: 18, soundfont: keytar}
+- name: Solo Vox
+  69: {bank: 6, program: 19, soundfont: keytar}
+- name: Poly Synth
+  70: {bank: 6, program: 20, soundfont: keytar}
+# ############################################
+# BLAESER
+# ############################################
+- name: Trumpet
+  71: {bank: 7, program: 1, soundfont: keytar}
+- name: Trombone
+  72: {bank: 7, program: 2, soundfont: keytar}
+- name: Tuba
+  73: {bank: 7, program: 3, soundfont: keytar}
+- name: Muted Trumpet
+  74: {bank: 7, program: 4, soundfont: keytar}
+- name: French Horns
+  75: {bank: 7, program: 5, soundfont: keytar}
+- name: Alto Sax
+  76: {bank: 7, program: 6, soundfont: keytar}
+- name: Tenor Sax
+  77: {bank: 7, program: 7, soundfont: keytar}
+- name: Baritone Sax
+  78: {bank: 7, program: 8, soundfont: keytar}
+- name: Soprano Sax
+  79: {bank: 7, program: 10, soundfont: keytar}
+- name: Oboe
+  80: {bank: 7, program: 9, soundfont: keytar}
+- name: Bassoon
+  81: {bank: 7, program: 11, soundfont: keytar}
+- name: English Horn
+  82: {bank: 7, program: 12, soundfont: keytar}
+- name: Clarinet
+  83: {bank: 7, program: 13, soundfont: keytar}
+- name: Piccolo Flute
+  84: {bank: 7, program: 14, soundfont: keytar}
+- name: Flute
+  85: {bank: 7, program: 15, soundfont: keytar}
+- name: Recorder
+  86: {bank: 7, program: 16, soundfont: keytar}
+- name: Pan Flute
+  87: {bank: 7, program: 17, soundfont: keytar}
+- name: Bottle Chiff
+  88: {bank: 7, program: 18, soundfont: keytar}
+- name: Shakuhachi
+  89: {bank: 7, program: 19, soundfont: keytar}
+- name: Whistle
+  90: {bank: 7, program: 20, soundfont: keytar}
+- name: Ocarina
+  91: {bank: 7, program: 21, soundfont: keytar}
+- name: Shenai
+  92: {bank: 7, program: 22, soundfont: keytar}
+- name: BagPipe
+  93: {bank: 7, program: 23, soundfont: keytar}
+- name: Brass Section
+  94: {bank: 7, program: 24, soundfont: keytar}
+- name: Brass
+  95: {bank: 7, program: 25, soundfont: keytar}
+# ############################################
+# SYNTHS
+# ############################################
+- name: Synth Brass 1
+  96: {bank: 8, program: 1, soundfont: keytar}
+- name: Synth Brass 2
+  97: {bank: 8, program: 2, soundfont: keytar}
+- name: Synth Brass 3
+  98: {bank: 8, program: 8, soundfont: keytar}
+- name: Synth Brass 4
+  99: {bank: 8, program: 9, soundfont: keytar}
+- name: Synth Bass 1
+  100: {bank: 8, program: 3, soundfont: keytar}
+- name: Synth Bass 2
+  101: {bank: 8, program: 4, soundfont: keytar}
+- name: Synth Bass 3
+  102: {bank: 8, program: 7, soundfont: keytar}
+- name: Synth Bass 4
+  103: {bank: 8, program: 10, soundfont: keytar}
+- name: Synth Strings
+  104: {bank: 8, program: 5, soundfont: keytar}
+- name: Bass n Lead
+  105: {bank: 8, program: 6, soundfont: keytar}
+- name: Square Lead
+  106: {bank: 8, program: 11, soundfont: keytar}
+- name: Saw Wave
+  107: {bank: 8, program: 12, soundfont: keytar}
+- name: Caliope Lead
+  108: {bank: 8, program: 13, soundfont: keytar}
+- name: Chiffer Lead
+  109: {bank: 8, program: 14, soundfont: keytar}
+- name: Charang
+  110: {bank: 8, program: 15, soundfont: keytar}
+- name: Sawtooth Wave
+  111: {bank: 8, program: 16, soundfont: keytar}
+- name: Sine Wave
+  112: {bank: 8, program: 17, soundfont: keytar}
