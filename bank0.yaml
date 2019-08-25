@@ -1,8 +1,5 @@
 soundfonts: {keytar: /home/pi/soundfonts/Keytar_God.sf2}
 gain: 0.4
-reverb_level: 0.9
-reverb_roomsize: 0.2
-reverb_width: 0.5
 router_rules:
 - {type: note}
 - {type: pbend}
@@ -18,6 +15,8 @@ patches:
 # ############################################
 - name: Grand Piano
   0: {bank: 0, program: 0, soundfont: keytar}
+  router_rules:
+  - {type: cc}
 - name: Bright Grand
   1: {bank: 0, program: 1, soundfont: keytar}
 - name: E-Piano
@@ -30,6 +29,8 @@ patches:
   5: {bank: 0, program: 5, soundfont: keytar}
 - name: Wurlitzer
   6: {bank: 0, program: 6, soundfont: keytar}
+  router_rules:
+  - {type: cc}
 # ############################################
 # SCHLAGINSTRUMENTE
 # ############################################
