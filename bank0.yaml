@@ -9,16 +9,20 @@ router_rules:
 - {type: cc, chan: [0, 15, 1, 0], par1: [0, 127, 1, 0]} # MIDI multi mode ON
 patches:
 # ############################################
+# AFRICA - TOTO
+# ############################################
+
+# ############################################
 # ENGEL - RAMMSTEIN
 # ############################################
-- name: ENGEL Intro
+- name: ENGEL Pfeifen
   0: {bank: 7, program: 20, soundfont: keytar}
-- name: ENGEL Strophe
+- name: ENGEL Bass
   0: {bank: 8, program: 7, soundfont: keytar}
-- name: ENGEL Bridge
+- name: ENGEL Pad
   0: {bank: 6, program: 14, soundfont: keytar}
-- name: ENGEL REFRAIN
-  0: {bank: 6, program: 14, soundfont: keytar}
+- name: ENGEL Solo
+  0: {bank: 5, program: 9, soundfont: keytar}
 # ############################################
 # PIANOS
 # ############################################
