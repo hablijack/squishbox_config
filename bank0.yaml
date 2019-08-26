@@ -3,13 +3,22 @@ gain: 0.4
 router_rules:
 - {type: note}
 - {type: pbend}
-- {type: cpress}
-#- {type: kpress} # key aftertouch
-#- {type: cpress} # channel aftertouch
-- {type: cc, chan: [0, 0, 0, 0], par1: [19, 19, 0, 7]} # volume slider
-- {type: cc, chan: [0, 15, 1, 0], par1: [64, 64, 1, 0]} # sustain pedal
-- {type: cc, chan: [0, 15, 1, 0], par1: [0, 127, 1, 0]}
+# - {type: cpress} # channel aftertouch
+- {type: cc, chan: [0, 0, 0, 0], par1: [19, 19, 0, 7]} # Volume Slider
+- {type: cc, chan: [0, 15, 1, 0], par1: [64, 64, 1, 0]} # Sustain Pedal
+- {type: cc, chan: [0, 15, 1, 0], par1: [0, 127, 1, 0]} # MIDI multi mode ON
 patches:
+# ############################################
+# ENGEL - RAMMSTEIN
+# ############################################
+- name: ENGEL Intro
+  0: {bank: 7, program: 20, soundfont: keytar}
+- name: ENGEL Strophe
+  0: {bank: 8, program: 7, soundfont: keytar}
+- name: ENGEL Bridge
+  0: {bank: 6, program: 14, soundfont: keytar}
+- name: ENGEL REFRAIN
+  0: {bank: 6, program: 14, soundfont: keytar}
 # ############################################
 # PIANOS
 # ############################################
