@@ -4,21 +4,26 @@ router_rules:
 - {type: note}
 - {type: pbend}
 # - {type: cpress} # channel aftertouch
-- {type: cc, chan: [0, 0, 0, 0], par1: [19, 19, 0, 7]} # Volume Slider
-- {type: cc, chan: [0, 15, 1, 0], par1: [64, 64, 1, 0]} # Sustain Pedal
-- {type: cc, chan: [0, 15, 1, 0], par1: [0, 127, 1, 0]} # MIDI multi mode ON
+- {type: cc, chan: [0, 1, 1, 0], par1: [19, 19, 0, 7]} # Volume Slider
+- {type: cc, chan: [0, 1, 1, 0], par1: [64, 64, 1, 0]} # Sustain Pedal
+- {type: cc, chan: [0, 1, 1, 0], par1: [0, 127, 1, 0]} # MIDI multi mode ON
 patches:
 # ############################################
 # AFRICA - TOTO
 # ############################################
-
+- name: TOTO Africa
+  0: {bank: 6, program: 19, soundfont: keytar}
 # ############################################
 # ENGEL - RAMMSTEIN
 # ############################################
 - name: ENGEL Pfeifen
   0: {bank: 7, program: 20, soundfont: keytar}
+  router_rules: 
+  - {type: note, chan: [0, 1, 1, 0], par1: [12, 127, 1, 24]} # two octaves up
 - name: ENGEL Bass
   0: {bank: 8, program: 7, soundfont: keytar}
+  router_rules: 
+  - {type: note, chan: [0, 1, 1, 0], par1: [12, 127, 1, -24]} # two octaves down
 - name: ENGEL Pad
   0: {bank: 6, program: 14, soundfont: keytar}
 - name: ENGEL Solo
